@@ -1,0 +1,30 @@
+{
+   "name":"Ko-Fi Bot",
+   "description":"An App to get Ko-Fi payment updates on Telegram. Powerd by RishBroPromax (@ImRishmika)",
+   "keywords":[
+      "Ko-Fi",
+      "telegram",
+      "Flask"
+   ],
+   "website":"https://ko-fi/",
+   "repository":"https://github.com/RishBropromax/Ko-Fi-Bot",
+   "logo":"https://telegra.ph/file/6f3218258e2ec90df0ee3.png",
+   "success_url":"https://t.me/TeamSemmy",
+   "env":{
+       "BOT_TOKEN":{
+          "description":"Your Bot token from @botfather",
+          "value":""
+       },
+       "UPDATE_ID":{
+          "description":"Your Telegram ID where you want notifications.",
+          "value":""
+       }
+           },
+   "formation":{
+      "web":{
+         "quantity":1,
+         "size":"free"
+               
+           }
+       }
+  }
